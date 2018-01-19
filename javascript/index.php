@@ -35,6 +35,10 @@
                 }
             }
             
+            function changeBodyColor() {
+                document.body.style.backgroundColor = "red";
+            }
+            
         </script>
         
         <div id="img">
@@ -45,6 +49,10 @@
             <div id="hideShowImgBtn">
                 <button id="hideImgButton" type="button" onclick="hideShowImg()">Toggle Picture</button>
             </div>
+        </div>
+        
+        <div id="changeBGColor">
+            <button id="bgColorBtn" onclick="changeBodyColor()">Change Color</button>
         </div>
         
     </body>
