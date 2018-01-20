@@ -1,4 +1,47 @@
-#hideImgBtn {
-    margin: 50px;
+div {
+    border: solid black 1px;
 }
+
+img {
+    width: 64px;
+    height: 64px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+#actualBorder {
+    width: 50px;
+    height: 50px;
+    border: solid 1px black;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+#alertBtn {
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+#green, #red, #blue, #reset {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+
+#clearButton {
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#hideImgButton {
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+
 
