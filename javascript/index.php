@@ -78,6 +78,10 @@
                 x.style.backgroundColor = "white";
             }
             
+            function numbers() {
+                
+            }
+            
         </script>
         
         <div id="main">
@@ -113,11 +117,13 @@
         
         <div id="borderBGChange">
             
+            <p>Uppgift 6</p>
+            
             <button onclick="greenBorderBG()" id="green">Green</button>
             
-            <button onclick="blueBorderBG()" id="red">Red</button>
+            <button onclick="blueBorderBG()" id="red">Blue</button>
             
-            <button onclick="redBorderBG()" id="blue">Blue</button>
+            <button onclick="redBorderBG()" id="blue">Red</button>
             
             <button onclick="resetBorderBG()" id="reset">Reset</button>
             
@@ -125,6 +131,10 @@
                 
             </div>
         
+        </div>
+        
+        <div id="siffror">
+            
         </div>
             
     </body>
